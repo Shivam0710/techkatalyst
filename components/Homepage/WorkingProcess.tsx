@@ -1,4 +1,4 @@
-import { inter, interMedium } from '@/helpers/fonts'
+import { interMedium } from '@/helpers/fonts'
 import React from 'react'
 import ProcessCard from './ProcessCard'
 import DevIcon from '@/public/dev.png'

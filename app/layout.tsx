@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { afacad, inter } from "@/helpers/fonts";
 import "./globals.css";
 

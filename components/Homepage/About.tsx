@@ -16,7 +16,7 @@ export const About = () => {
                 We are tech experts who use technology to innovate and transform businesses
             </p>
             <p className={`${afacad.className} text-xl mx-auto mt-4 text-center w-[90%]`}>
-                At <span className='text-[#7000FF]'> Tech Katalyst</span>, we believe in the power of innovation and strategic thinking. Our goal is to bridge the gap between ideas and successful implementation, helping businesses navigate complex markets and thrive in the digital age. By combining deep industry insights with cutting-edge technology, we strive to deliver solutions that not only meet but exceed our clients' expectations. 
+                At <span className='text-[#7000FF]'> Tech Katalyst</span>, we believe in the power of innovation and strategic thinking. Our goal is to bridge the gap between ideas and successful implementation, helping businesses navigate complex markets and thrive in the digital age. By combining deep industry insights with cutting-edge technology, we strive to deliver solutions that not only meet but exceed our client&apos;s expectations. 
             </p>
             <article className='mt-20 mx-auto text-center'>
                 <a href="" className={`bg-[#7000FF] text-white text-2xl ${afacad.className} font-medium py-5 px-20`}>

@@ -1,4 +1,4 @@
-import { inter, interMedium } from '@/helpers/fonts'
+import { inter } from '@/helpers/fonts'
 import React from 'react'
 import ClientCard from './ClientCard'
 import Person1 from '@/public/person1.png'
