@@ -13,7 +13,7 @@ const ClientCard = ({ profilePic, name, review } : { profilePic: StaticImageData
         <p className={`pt-4 ${afacad.className} text-sm`}>
             {review}
         </p>
-        <p className='w-[32px] h-[6px] bg-[#02FF02] my-4'></p>
+        <p className='w-[32px] h-[6px] bg-[#9EE463] my-4'></p>
         <p className={`${afacadBold.className} italic`}>{name}</p> 
     </div>
   )

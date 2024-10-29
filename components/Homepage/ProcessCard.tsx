@@ -11,10 +11,10 @@ export const ProcessCard = ({ icon, title, subtitle } : { icon: StaticImageData,
                 className='w-[62px] h-[62px]'
             />
         </article>
-        <p className='text-white font-bold text-2xl mt-6'>
+        <p className='text-white font-bold text-xl lg:text-2xl mt-6'>
             {title}
         </p>
-        <p className='text-[rgba(255,255,255,0.8)] text-sm text-center w-[50%]'>
+        <p className='text-[rgba(255,255,255,0.8)] text-[12px] lg:text-sm text-center w-[50%]'>
             {subtitle}
         </p>
     </div>
