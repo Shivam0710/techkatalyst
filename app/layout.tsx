@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { afacad, inter } from "@/helpers/fonts";
 import "./globals.css";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Tech Katalyst",
@@ -17,7 +19,9 @@ export default function RootLayout({
       <body
         className={`${inter.className} ${afacad.className} antialiased`}  
       >
-        {children}
+        <Header />
+          {children}
+        <Footer />
       </body>
     </html>
   );

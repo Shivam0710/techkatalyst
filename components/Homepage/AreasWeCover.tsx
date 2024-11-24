@@ -6,7 +6,7 @@ import { inter } from '@/helpers/fonts'
 
 export const AreasWeCover = () => {
   return (
-    <div className='lg:h-[1397px] bg-[#0A0615] w-full mt-[-350px] lg:mt-[-300px] relative overflow-hidden pt-[420px] pb-[40px] lg:pb-0'>
+    <div className='lg:h-[1397px] bg-[#0A0615] w-full mt-[-350px] relative overflow-hidden pt-[420px] pb-[40px] lg:pb-0'>
         <Image 
             src={CircleBg}
             alt='circle-bg'
