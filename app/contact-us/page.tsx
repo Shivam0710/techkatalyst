@@ -1,9 +1,7 @@
 'use client'
 
 import React from 'react'
-import { HeroSection } from '@/components/Services/HeroSection'
-import { GetInTouchForm, GetInTouchSection } from '@/components/Services/GetInTouchSection'
-import { OtherQuestionsSection } from '@/components/Services/OtherQuestionsSection'
+import { GetInTouchForm } from '@/components/Services/GetInTouchSection'
 import Image from 'next/image'
 import LinkedinLogo from '@/public/linkedin.png'
 import TwitterLogo from '@/public/twitter.png'

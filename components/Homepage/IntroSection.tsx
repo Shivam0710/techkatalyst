@@ -15,7 +15,7 @@ export const IntroSection = () => {
                 <p className={`${afacad.className} text-xl lg:w-[70%] mt-3 lg:mt-10`}> 
                     We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization
                 </p>
-                <a href="" className={`${afacad.className} mt-6 lg:mt-12 bg-[#7000FF] py-[14px] lg:py-5 px-10 text-white rounded-sm text-[18px] text-center lg:text-2xl font-medium w-full lg:w-auto inline-block`}>
+                <a href="/contact-us" className={`${afacad.className} mt-6 lg:mt-12 bg-[#7000FF] py-[14px] lg:py-5 px-10 text-white rounded-sm text-[18px] text-center lg:text-2xl font-medium w-full lg:w-auto inline-block`}>
                     Lets discuss oppotunities
                 </a>
             </article>

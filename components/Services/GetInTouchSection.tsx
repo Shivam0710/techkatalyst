@@ -44,7 +44,7 @@ export const GetInTouchForm = () => {
                 Get in touch
             </h6>
             <p className='text-[#6A6A6A] text-sm'>
-                We'd love to hear from you. Please fill out this form.
+                We&apos;d love to hear from you. Please fill out this form.
             </p>
             <form className='mt-6'>
                 <div className='grid grid-cols-2 gap-x-4 gap-y-6'>

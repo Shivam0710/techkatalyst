@@ -53,8 +53,8 @@ const Footer = () => {
         </div>
         <hr className='border-solid border-t-[#ffffff3d] mt-[32px] lg:my-10' />
         <div className='flex gap-20 text-white'>
-            <a className='text-sm text-white' href="">About us</a>
-            <a className='text-sm text-white' href="">Contact us</a>
+            <a className='text-sm text-white' href="/about-us">About us</a>
+            <a className='text-sm text-white' href="/contact-us">Contact us</a>
         </div>
         <p className='text-sm text-[rgba(255,255,255,0.6)] mt-6 lg:text-center'>
             © Copyright 2024, All Rights Reserved by Tech Katalyst

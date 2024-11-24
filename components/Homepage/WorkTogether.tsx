@@ -13,7 +13,7 @@ const WorkTogether = () => {
             </p>
         </article>
         <article className='flex lg:self-center'>
-            <a href="" className={`flex justify-center ${afacadBold.className} bg-[#9EE463] py-[14px] lg:py-5 px-10 text-black w-full text-2xl whitespace-nowrap`}>
+            <a href="/contact-us" className={`flex justify-center ${afacadBold.className} bg-[#9EE463] py-[14px] lg:py-5 px-10 text-black w-full text-2xl whitespace-nowrap`}>
                 Start a project
             </a>
         </article>

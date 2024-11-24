@@ -45,7 +45,7 @@ export const ServicesWeProvide = () => {
                     </span>
                 </li>
             </ul>
-            <a href="" className={`bg-[#7000FF] text-white text-lg text-center lg:text-2xl ${afacad.className} font-bold py-[14px] lg:py-5 px-10 block lg:inline-block mt-8 lg:mt-12`}>
+            <a href="/contact-us" className={`bg-[#7000FF] text-white text-lg text-center lg:text-2xl ${afacad.className} font-bold py-[14px] lg:py-5 px-10 block lg:inline-block mt-8 lg:mt-12`}>
                 Lets discuss oppotunities
             </a>
         </article>
