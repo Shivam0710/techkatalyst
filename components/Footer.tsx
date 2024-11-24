@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
         </article>
         <p className='text-white text-sm mt-6'>
-            At Tech Katalyst, our mission is to empower businesses with innovative technology solutions that drive transformative growth and operational efficiency, delivering exceptional results in a rapidly evolving digital landscape. We don't just create solutions—we ensure they are strategically aligned with your business objectives to generate lasting impact and propel you ahead of the competition.
+            At Tech Katalyst, our mission is to empower businesses with innovative technology solutions that drive transformative growth and operational efficiency, delivering exceptional results in a rapidly evolving digital landscape. We don&apos;t just create solutions—we ensure they are strategically aligned with your business objectives to generate lasting impact and propel you ahead of the competition.
         </p>
         <hr className='border-solid border-t-[#ffffff3d] mt-[32px] lg:my-10' />
         <p className='font-semibold text-white'> Our services </p>

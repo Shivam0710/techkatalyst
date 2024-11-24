@@ -41,6 +41,7 @@ export type Service = {
     };
     WhyUsSection: {
         title: string;
+        heading?: string;
         points: WhyUsPoint[];
     };
     howItWorksSection: HowItWorksPoint[];
@@ -127,6 +128,7 @@ export const services: Services = {
             ]
         },
         "WhyUsSection": {
+            heading: "Why Tech Katalyst",
             title: "Choosing Tech Katalyst for mobile app development means partnering with a team that's dedicated to delivering high-quality, user-focused solutions. Here's why we stand out:",
             points: [
                 {
@@ -280,8 +282,8 @@ export const services: Services = {
             ]
         },
         "WhyUsSection": {
-            title: "Why Choose Us for UI/UX Design",
-            heading: 'Choosing Tech Katalyst as your UI/UX design partner means working with a team dedicated to delivering meaningful, high-impact user experiences. Here’s what sets us apart:',
+            heading: "Why Choose Us for UI/UX Design",
+            title: 'Choosing Tech Katalyst as your UI/UX design partner means working with a team dedicated to delivering meaningful, high-impact user experiences. Here’s what sets us apart:',
             points: [
                 {
                     "icon": "/images/services/strategic.png",

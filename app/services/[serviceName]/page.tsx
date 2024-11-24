@@ -26,7 +26,7 @@ export default function ServicePage() {
       <HeroSection title={service.heroSection.title} heading={service.heroSection.heading} subheading={service.heroSection.description} />
       <OfferingsSection title={service.offeringsSection.title} offerings={service.offeringsSection.offerings} />
       <WhyChooseUsSection title={service.whyChooseUsSection.title} description={service.whyChooseUsSection.description} points={service.whyChooseUsSection.points} />
-      <WhyUsSection title={service.WhyUsSection.title} points={service.WhyUsSection.points} />
+      <WhyUsSection heading={service.WhyUsSection.heading} title={service.WhyUsSection.title} points={service.WhyUsSection.points} />
       <HowItWorksSection points={service.howItWorksSection} />
       <GetInTouchSection />
       <FaqSection faq={service.faqSection} />

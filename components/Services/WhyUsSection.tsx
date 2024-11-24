@@ -2,11 +2,11 @@ import { WhyUsPoint } from '@/helpers/constants'
 import Image from 'next/image'
 import React from 'react'
 
-export const WhyUsSection = ({ title, points }: { title: string, points: WhyUsPoint[] }) => {
+export const WhyUsSection = ({ title, points, heading }: { title: string, points: WhyUsPoint[], heading?: string }) => {
   return (
     <div className='standard-margin-top px-[100px]'>
         <h3 className='text-5xl font-bold mb-4 text-center leading-tight mx-auto'>
-            Why Tech Katalyst
+            {heading}
         </h3>
         <p className='text-center'>
             {title}
