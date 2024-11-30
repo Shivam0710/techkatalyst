@@ -1,6 +1,6 @@
 import React from 'react'
 
-poppinsface HeroSectionProps {
+interface HeroSectionProps {
   title: React.ReactNode;
   heading: string;
   subheading: string;

@@ -10,7 +10,7 @@ const ClientCard = ({ profilePic, name, review } : { profilePic: StaticImageData
             alt='profile-pic'
             className='w-[72px] h-[72px] rounded-full'
         />
-        <p className={`pt-4 ${poppins.className} text-sm`}>
+        <p className={`pt-4  text-sm`}>
             {review}
         </p>
         <p className='w-[32px] h-[6px] bg-[#9EE463] my-4'></p>

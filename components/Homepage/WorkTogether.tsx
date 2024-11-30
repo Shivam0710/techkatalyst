@@ -1,4 +1,4 @@
-import { poppins, poppinsBold, poppinsMedium } from '@/helpers/fonts'
+import { poppinsBold, poppinsMedium } from '@/helpers/fonts'
 import React from 'react'
 
 const WorkTogether = () => {
@@ -8,7 +8,7 @@ const WorkTogether = () => {
             <h4 className={`${poppinsMedium.className} text-[30px] text-center lg:text-left lg:text-5xl italic`}>
                 Let’s work together
             </h4>
-            <p className={`pt-4 lg:pt-6 ${poppins.className} text-xl w-full text-center lg:text-left lg:w-[50%]`}>
+            <p className={`pt-4 lg:pt-6  text-xl w-full text-center lg:text-left lg:w-[50%]`}>
                 We are architects of innovation, trailblazers of technological advancements, and partners in your success. As a dynamic and forward -thinking organisation  
             </p>
         </article>
