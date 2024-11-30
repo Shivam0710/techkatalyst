@@ -1,4 +1,4 @@
-import { afacadBold } from '@/helpers/fonts'
+import { poppinsBold } from '@/helpers/fonts'
 import React from 'react'
 import ClientCard from './ClientCard'
 import Person1 from '@/public/person1.png'
@@ -8,7 +8,7 @@ import Person3 from '@/public/person3.png'
 export const AboutClients = () => {
   return (
     <div className='mt-[40px] lg:mt-[120px] px-[24px] lg:px-[100px]'>
-        <h3 className={`${afacadBold.className} italic text-5xl text-center font-bold`}>
+        <h3 className={`${poppinsBold.className} italic text-5xl text-center font-bold`}>
             What client say
         </h3>
         <article className='pt-7 lg:pt-14 flex flex-col lg:flex-row justify-between gap-[16px] lg:gap-x-6'>

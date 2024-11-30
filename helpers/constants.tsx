@@ -103,7 +103,7 @@ export const services: Services = {
             "points": [
                 {
                     "heading": "Enhanced User Experience",
-                    "description": "We design intuitive and visually engaging interfaces that provide a seamless, enjoyable user journey."
+                    "description": "We design intuitive and visually engaging poppinsfaces that provide a seamless, enjoyable user journey."
                 },
                 {
                     "heading": "Stronger Brand Presence",
@@ -212,10 +212,10 @@ export const services: Services = {
         "heroSection": {
             title: 'Product-UI/UX-Design',
             heading: 'User-Cantered Design that Brings Your Brand to Life',
-            description: 'At Tech Katalyst, we blend creativity and functionality to build user-friendly interfaces that resonate with users and align with your business goals. Elevate your product with UI/UX that stands out..'
+            description: 'At Tech Katalyst, we blend creativity and functionality to build user-friendly poppinsfaces that resonate with users and align with your business goals. Elevate your product with UI/UX that stands out..'
         },
         "offeringsSection": {
-            "title": "Our User interface & Experience Design Service Offerings",
+            "title": "Our User poppinsface & Experience Design Service Offerings",
             "offerings": [
                 {
                     "icon": "/images/services/ios.png",
@@ -257,7 +257,7 @@ export const services: Services = {
             "points": [
                 {
                     "heading": "Enhanced Usability",
-                    "description": "Intuitive design allows users to navigate and interact effortlessly, improving satisfaction."
+                    "description": "Intuitive design allows users to navigate and poppinsact effortlessly, improving satisfaction."
                 },
                 {
                     "heading": "Stronger Brand Identity",
@@ -269,7 +269,7 @@ export const services: Services = {
                 },
                 {
                     "heading": "Higher Conversion Rates",
-                    "description": "A user-friendly interface aligned with expectations drives higher conversions and key actions."
+                    "description": "A user-friendly poppinsface aligned with expectations drives higher conversions and key actions."
                 },
                 {
                     "heading": "Lower Development Costs",
@@ -328,7 +328,7 @@ export const services: Services = {
             },
             {
                 "heading": "Prototype",
-                "description": "We build initial models and interactive wireframes, enabling you to visualize the product and gather feedback before development."
+                "description": "We build initial models and poppinsactive wireframes, enabling you to visualize the product and gather feedback before development."
             },
             {
                 "heading": "Build",
@@ -342,11 +342,11 @@ export const services: Services = {
         "faqSection": [
             {
                 "question": "What is UI/UX design and why is it important?",
-                "answer": "UI/UX design is the process of designing digital products with a focus on user experience and interface. It involves creating intuitive and visually appealing interfaces that are easy to navigate and use. Good UI/UX design can significantly improve user satisfaction, engagement, and conversion rates."
+                "answer": "UI/UX design is the process of designing digital products with a focus on user experience and poppinsface. It involves creating intuitive and visually appealing poppinsfaces that are easy to navigate and use. Good UI/UX design can significantly improve user satisfaction, engagement, and conversion rates."
             },
             {
-                "question": "How can a well-designed user interface increase user engagement and conversions?",
-                "answer": "A well-designed user interface can reduce user frustration, improve task completion rates, and enhance brand perception, leading to higher user engagement and conversions."
+                "question": "How can a well-designed user poppinsface increase user engagement and conversions?",
+                "answer": "A well-designed user poppinsface can reduce user frustration, improve task completion rates, and enhance brand perception, leading to higher user engagement and conversions."
             },
             {
                 "question": "How can UI/UX design help my business achieve its goals?",

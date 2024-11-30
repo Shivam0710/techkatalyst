@@ -20,7 +20,7 @@ export default function AboutUsPage() {
             </h6>
             <div className='grid grid-cols-3 gap-10 gap-y-[60px]'>
                 <ServiceCard icon="/images/growth.png" title={"Web & App Development"} description={"Creating scalable, high-performing websites tailored to your business needs."} />
-                <ServiceCard icon="/images/growth.png" title={"Product UI/UX Design"} description={"Designing intuitive and user-centric interfaces for digital products."} />
+                <ServiceCard icon="/images/growth.png" title={"Product UI/UX Design"} description={"Designing intuitive and user-centric poppinsfaces for digital products."} />
                 <ServiceCard icon="/images/growth.png" title={"Product Management"} description={"Strategizing, planning, and delivering products that align with your business goals."} />
                 <ServiceCard icon="/images/growth.png" title={"Data Analytics & Insights"} description={"Turning raw data into actionable insights for smarter decision-making."} />
                 <ServiceCard icon="/images/growth.png" title={"Market Research"} description={"Providing in-depth research to understand trends, audiences, and opportunities."} />

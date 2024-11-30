@@ -2,7 +2,7 @@ import React from 'react'
 import CircleBg from '@/public/circle-bg.png'
 import Image from 'next/image'
 import ProductCard from './ProductCard'
-import { inter } from '@/helpers/fonts'
+import { poppins } from '@/helpers/fonts'
 
 export const AreasWeCover = () => {
   return (
@@ -12,7 +12,7 @@ export const AreasWeCover = () => {
             alt='circle-bg'
             className='absolute object-cover top-0 hidden lg:block'
         />
-        <h4 className={`px-6 text-[30px] leading-[32px] lg:text-5xl lg:leading-[56px] z-10 text-white w-[90%] lg:w-[60%] font-bold italic ${inter.className} lg:mx-auto text-center leading-[56px] z-10 relative w-full`}>
+        <h4 className={`px-6 text-[30px] leading-[32px] lg:text-5xl lg:leading-[56px] z-10 text-white w-[90%] lg:w-[60%] font-bold italic ${poppins.className} lg:mx-auto text-center leading-[56px] z-10 relative w-full`}>
             We are tech experts who use technology to innovate and transform businesses
         </h4>
         <div className='mt-7 lg:mt-14 text-white px-6 lg:px-[100px] z-10 relative grid grid-cols-1 lg:grid-cols-3 gap-6'>
@@ -21,7 +21,7 @@ export const AreasWeCover = () => {
             <ProductCard titleClassName='w-[50%]' title='Web Development' subtitle='Building intuitive and powerful mobile applications to keep your business at your customers’ fingertips.' />
             <ProductCard titleClassName='w-[50%]' title='Mobile App Development' subtitle='Building intuitive and powerful mobile applications to keep your business at your customers’ fingertips.' />
             <ProductCard titleClassName='w-[50%]' title='Analytics & Data Science' subtitle='We turn raw data into actionable insights, offering services from data collection and mining to predictive modeling and consulting.' />
-            <ProductCard title='UI/UX Design' titleClassName='w-[40%]' subtitle='Delivering intuitive and aesthetically pleasing interfaces that enhance user satisfaction and boost conversions.' />
+            <ProductCard title='UI/UX Design' titleClassName='w-[40%]' subtitle='Delivering intuitive and aesthetically pleasing poppinsfaces that enhance user satisfaction and boost conversions.' />
         </div>
     </div>
   )

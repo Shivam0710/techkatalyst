@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { afacad, inter } from "@/helpers/fonts";
+import { poppins } from "@/helpers/fonts";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${afacad.className} antialiased`}  
+        className={`${poppins.className} ${poppins.className} antialiased`}  
       >
         <Header />
           {children}

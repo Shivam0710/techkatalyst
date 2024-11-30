@@ -1,4 +1,4 @@
-import { afacad, afacadBold } from '@/helpers/fonts'
+import { poppins, poppinsBold } from '@/helpers/fonts'
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 
@@ -10,11 +10,11 @@ const ClientCard = ({ profilePic, name, review } : { profilePic: StaticImageData
             alt='profile-pic'
             className='w-[72px] h-[72px] rounded-full'
         />
-        <p className={`pt-4 ${afacad.className} text-sm`}>
+        <p className={`pt-4 ${poppins.className} text-sm`}>
             {review}
         </p>
         <p className='w-[32px] h-[6px] bg-[#9EE463] my-4'></p>
-        <p className={`${afacadBold.className} italic`}>{name}</p> 
+        <p className={`${poppinsBold.className} italic`}>{name}</p> 
     </div>
   )
 }

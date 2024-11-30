@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
 import FolderIcon from '@/public/folder-icon.png'
-import { inter } from '@/helpers/fonts'
+import { poppins } from '@/helpers/fonts'
 
 export const ProductCard = ({ title, subtitle, titleClassName }: { title: string, subtitle: string, titleClassName?: string }) => {
   return (
-    <div className={`bg-white p-6 lg:p-8 inline-block ${inter.className}`}>
+    <div className={`bg-white p-6 lg:p-8 inline-block ${poppins.className}`}>
         <Image 
             src={FolderIcon}
             alt='folder-icon'
