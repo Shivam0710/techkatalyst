@@ -8,15 +8,20 @@ export const IntroSection = () => {
     <div className='relative'>
         <div className='flex flex-col-reverse lg:flex-row items-center py-10 pt-4 px-6 lg:px-[100px]'>
             <article className='mt-[28px] lg:mt-auto'>
-                <h2 className={` text-[40px] leading-[40px] w-[90%] lg:text-[48px] font-medium lg:w-[80%] lg:leading-[68px]`}>
+                <h2 className={` text-[28px] leading-[40px] w-[90%] lg:text-[48px] font-bold lg:w-[80%] lg:leading-[68px]`}>
                     We provide best tech solutions for your business
                 </h2>
-                <p className={` text-xl lg:w-[70%] mt-3 lg:mt-10`}> 
+                <p className={`text-sm lg:text-xl lg:w-[70%] mt-3 lg:mt-10`}> 
                     We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization
                 </p>
-                <a href="/contact-us" className={` mt-6 lg:mt-12 bg-[#7000FF] py-[14px] lg:py-5 px-10 text-white rounded-sm text-[18px] text-center lg:text-2xl font-medium w-full lg:w-auto inline-block`}>
-                    Lets discuss oppotunities
-                </a>
+                <div className='flex-col lg:flex-row flex gap-4 mt-6'>
+                    <a href="/contact-us" className={`lg:mt-12 bg-[#7000FF] py-[14px] lg:py-5 px-10 text-white rounded-sm text-[18px] text-center lg:text-2xl font-medium w-full lg:w-auto inline-block`}>
+                        Book a free call
+                    </a>
+                    <a href="/contact-us" className={`lg:mt-12 bg-white py-[14px] lg:py-5 px-[60px] text-[#7000FF] border border-[#7000FF] rounded-sm text-[18px] text-center lg:text-2xl font-medium w-full lg:w-auto inline-block`}>
+                        Get started
+                    </a>
+                </div>
             </article>
             <Image 
                 src={Intro}

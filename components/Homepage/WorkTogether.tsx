@@ -3,17 +3,17 @@ import React from 'react'
 
 const WorkTogether = () => {
   return (
-    <div className='mt-[56px] lg:mt-[120px] px-6 gap-8 lg:px-[100px] py-[80px] bg-[#7000FF] flex-col lg:flex-row text-white flex justify-end'>
+    <div className='mt-[56px] lg:mt-[120px] px-6 gap-8 lg:px-[100px] py-12 lg:py-[80px] bg-[#7000FF] flex-col lg:flex-row text-white flex justify-end'>
         <article className='grow'>
-            <h4 className={`${poppinsMedium.className} text-[30px] text-center lg:text-left lg:text-5xl italic`}>
+            <h4 className={`text-[20px] font-bold text-center lg:text-left lg:text-5xl`}>
                 Let’s work together
             </h4>
-            <p className={`pt-4 lg:pt-6  text-xl w-full text-center lg:text-left lg:w-[50%]`}>
+            <p className={`text-sm pt-4 lg:pt-6 lg:text-xl w-full text-center lg:text-left lg:w-[50%]`}>
                 We are architects of innovation, trailblazers of technological advancements, and partners in your success. As a dynamic and forward -thinking organisation  
             </p>
         </article>
         <article className='flex lg:self-center'>
-            <a href="/contact-us" className={`flex justify-center ${poppinsBold.className} bg-[#9EE463] py-[14px] lg:py-5 px-10 text-black w-full text-2xl whitespace-nowrap`}>
+            <a href="/contact-us" className={`flex justify-center font-medium bg-[#9EE463] py-[14px] lg:py-5 px-10 text-black w-full text-lg lg:text-2xl whitespace-nowrap`}>
                 Start a project
             </a>
         </article>

@@ -6,7 +6,9 @@ import Link from 'next/link'
 export const Header = () => {
   return (
     <div className='flex justify-between py-6 lg:py-10 px-6 lg:px-[100px] items-center'>
-        <Image src={Logo} alt="Logo" className="w-[130px] lg:w-[216px] h-[40px] lg:h-[66px]" /> 
+        <Link href="/">
+          <Image src={Logo} alt="Logo" className="w-[130px] lg:w-[216px] h-[40px] lg:h-[66px]" /> 
+        </Link>
         <article className={`hidden lg:flex items-center space-x-20  font-medium`}>
             <Link className='uppercase font-medium' href="/"> Home </Link>
             <Link className='uppercase font-medium' href="/about-us"> About us </Link>

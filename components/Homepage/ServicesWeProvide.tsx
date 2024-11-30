@@ -1,4 +1,4 @@
-import { poppinsBold, poppinsItalic } from '@/helpers/fonts'
+import { poppinsBold } from '@/helpers/fonts'
 import Image from 'next/image'
 import React from 'react'
 import ServicesImage from '@/public/services-image.png'
@@ -8,10 +8,10 @@ export const ServicesWeProvide = () => {
   return (
     <div className='px-6 lg:px-[100px] py-[56px] lg:py-[120px] flex flex-col-reverse lg:flex-row gap-6 lg:gap-20'>
         <article>
-            <h4 className={`${poppinsItalic.className} font-bold text-[30px] lg:text-5xl w-full lg:w-[80%] lg:leading-[56px]`}>
+            <h4 className={`font-bold text-[20px] text-center lg:text-left lg:text-5xl w-full lg:w-[80%] lg:leading-[56px]`}>
                 We provide IT solution & services for any startups
             </h4>
-            <ul className={`${poppinsBold.className} list-decimal text-xl ml-[20px] mt-6 lg:w-[75%] flex flex-col gap-3 lg:gap-4`}>
+            <ul className={`${poppinsBold.className} list-decimal text-sm lg:text-xl ml-[20px] mt-6 lg:w-[75%] flex flex-col gap-3 lg:gap-4`}>
                 <li className={` font-normal`}>
                     <span className={`${poppinsBold.className}`}>
                         Expertise Across Domains:
@@ -45,7 +45,7 @@ export const ServicesWeProvide = () => {
                     </span>
                 </li>
             </ul>
-            <a href="/contact-us" className={`bg-[#7000FF] text-white text-lg text-center lg:text-2xl  font-bold py-[14px] lg:py-5 px-10 block lg:inline-block mt-8 lg:mt-12`}>
+            <a href="/contact-us" className={`bg-[#7000FF] text-white text-sm text-center lg:text-2xl  font-bold py-[14px] lg:py-5 px-10 block lg:inline-block mt-8 lg:mt-12`}>
                 Lets discuss oppotunities
             </a>
         </article>

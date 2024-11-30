@@ -30,20 +30,20 @@ const Footer = () => {
                 </a>
             </article>
         </div>
-        <article className='items-center space-x-12 text-white flex lg:hidden pt-4'>
+        {/* <article className='items-center space-x-12 text-white flex lg:hidden pt-4'>
             <a href="">
                 Services
             </a>
             <a href="">
                 Contact us
             </a>
-        </article>
+        </article> */}
         <p className='text-white text-sm mt-6'>
             At Tech Katalyst, our mission is to empower businesses with innovative technology solutions that drive transformative growth and operational efficiency, delivering exceptional results in a rapidly evolving digital landscape. We don&apos;t just create solutions—we ensure they are strategically aligned with your business objectives to generate lasting impact and propel you ahead of the competition.
         </p>
-        <hr className='border-solid border-t-[#ffffff3d] mt-[32px] lg:my-10' />
+        <hr className='border-solid border-t-[#ffffff3d] my-[32px] lg:my-10' />
         <p className='font-semibold text-white'> Our services </p>
-        <div className='flex gap-4 mt-5'>
+        <div className='flex flex-wrap gap-4 mt-5'>
             <a className='text-sm text-white' href=""> Market Research </a>
             <a className='text-sm text-white' href=""> Product Management </a>
             <a className='text-sm text-white' href=""> Web development </a>
@@ -51,7 +51,7 @@ const Footer = () => {
             <a className='text-sm text-white' href="">Analytics & Data Science</a>
             <a className='text-sm text-white' href="">Product UI/UX design</a>
         </div>
-        <hr className='border-solid border-t-[#ffffff3d] mt-[32px] lg:my-10' />
+        <hr className='border-solid border-t-[#ffffff3d] my-[32px] lg:my-10' />
         <div className='flex gap-20 text-white'>
             <a className='text-sm text-white' href="/about-us">About us</a>
             <a className='text-sm text-white' href="/contact-us">Contact us</a>

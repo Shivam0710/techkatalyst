@@ -1,20 +1,26 @@
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 import React from 'react'
 
-export const ProcessCard = ({ icon, title, subtitle } : { icon: StaticImageData, title: string, subtitle: string }) => {
+export const ProcessCard = ({ index, title, subtitle, allowArrow=true } : { index: number, title: string, subtitle: string, allowArrow?: boolean }) => {
   return (
-    <div className='flex flex-col items-center'>
-        <article className='bg-[#7000FF] p-6 rounded-full'>
+    <div className='flex flex-col bg-[#B7FD7E] p-6 relative'>
+        { allowArrow && (
             <Image 
-                src={icon}
-                alt='icon'
-                className='w-[62px] h-[62px]'
+                src="/right-arrow.png"
+                alt='right-arrow'
+                className='absolute color-transparent lg:right-[-12px] lg:top-[50%] lg:translate-y-[-50%] right-[50%] bottom-[-24px] translate-x-[50%] rotate-90 lg:rotate-0'
+                width={24}
+                height={28}
             />
-        </article>
-        <p className='text-white font-bold text-xl lg:text-2xl mt-6'>
+        )}
+        <p className='flex lg:hidden h-10 w-10 justify-center items-center bg-[#5A3AEC] text-white absolute right-6 top-6 text-xl'>
+            {index}
+        </p>
+        <p className='font-bold text-base lg:text-xl text-[#5A3AEC] w-8/12'>
             {title}
         </p>
-        <p className='text-[rgba(255,255,255,0.8)] text-[12px] lg:text-sm text-center w-[50%]'>
+        <hr className='w-[50px] border-t-2 border-[#5A3AEC] my-4 lg:mb-6' />
+        <p className='text-black text-[12px] lg:text-sm'>
             {subtitle}
         </p>
     </div>

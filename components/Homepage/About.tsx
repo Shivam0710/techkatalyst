@@ -1,18 +1,18 @@
 import React from 'react'
-import { poppinsItalic } from '@/helpers/fonts'
+import { poppins } from '@/helpers/fonts'
 
 export const About = () => {
   return (
     <div className=' lg:h-[584px] px-[24px] lg:px-[100px] mt-[40px] lg:mt-[120px]'>
         <article className='bg-[#9EE463] w-full h-auto relative overflow-hidden z-10 p-6 lg:p-20'>
-            <p className={`${poppinsItalic.className} text-[30px] leading-[32px] lg:text-5xl font-medium text-center mx-auto`}>
+            <p className={`${poppins.className} text-[20px] leading-[24px] lg:text-5xl lg:leading-[60px] font-semibold text-center mx-auto`}>
                 We are tech experts who use technology to innovate and transform businesses
             </p>
-            <p className={` text-sm lg:text-xl mx-auto mt-6 text-center w-[90%]`}>
+            <p className={`text-sm lg:text-xl mx-auto mt-6 text-center lg:w-[90%] text-[#212121]`}>
                 At Tech Katalyst, we believe in the power of innovation and strategic thinking. Our goal is to bridge the gap between ideas and successful implementation, helping businesses navigate complex markets and thrive in the digital age. By combining deep industry insights with cutting-edge technology, we strive to deliver solutions that not only meet but exceed our client&apos;s expectations. 
             </p>
-            <article className='mt-[14px] lg:mt-[60px] mx-auto text-center'>
-                <a href="/about-us" className={`bg-[#7000FF] text-white text-[18px] lg:text-2xl  font-medium py-[14px] lg:py-5 px-20 block lg:inline-block`}>
+            <article className='mt-6 lg:mt-[60px] mx-auto text-center'>
+                <a href="/about-us" className={`bg-[#7000FF] text-white text-base lg:text-2xl  font-medium py-[14px] lg:py-5 px-20 block lg:inline-block`}>
                     Explore about us
                 </a>
             </article>

@@ -3,7 +3,7 @@ import React from 'react'
 
 export const OtherQuestionsSection = () => {
   return (
-    <div className='standard-margin-top mx-[100px] bg-[#F9FAFB] py-8 flex flex-col items-center mb-[120px]'>
+    <div className='standard-margin-top px-6 mx-6 lg:mx-[100px] lg:px-[100px] bg-[#F9FAFB] py-8 flex flex-col items-center mb-10 lg:mb-[120px]'>
         <Image 
             src="/images/services/still-have-questions.png"
             width={120}
@@ -13,10 +13,10 @@ export const OtherQuestionsSection = () => {
         <p className='text-[#101828] text-[20px] font-semibold pt-8'>
             Still have questions?
         </p>
-        <p className='text-[#6A6A6A] text-[16px] pt-4'>
+        <p className='text-[#6A6A6A] text-base pt-4 text-center'>
             Can’t find the answer you’re looking for? Please chat to our friendly team.
         </p>
-        <button className='bg-[#5A3AEC] text-white py-4 px-10 inline-block mt-9'>
+        <button className='bg-[#5A3AEC] text-white py-[10px] lg:py-4 px-10 w-full lg:w-auto block lg:inline-block mt-9'>
             Get in touch
         </button>
     </div>

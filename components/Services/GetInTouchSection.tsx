@@ -9,6 +9,7 @@ export const ContactImage = () => {
             alt="get in touch"
             width={464}
             height={514}
+            className='hidden lg:block'
         />
     )
 }
@@ -16,7 +17,7 @@ export const ContactImage = () => {
 export const GetInTouchSection = () => {
 
     return (
-        <div className='standard-margin-top bg-[#5A3AEC] px-[100px] py-20'>
+        <div className='standard-margin-top bg-[#5A3AEC] px-6 lg:px-[100px] py-12 lg:py-20'>
             <div className=' bg-white flex items-stretch gap-[60px]'>
                 <ContactImage />
                 <GetInTouchForm />
@@ -39,7 +40,7 @@ export const GetInTouchForm = () => {
     }
 
     return (
-        <div className="py-10 pr-[60px] w-full">
+        <div className="p-6 lg:py-10 lg:pr-[60px] w-full">
             <h6 className='text-[#101828] text-[28px] font-semibold'>
                 Get in touch
             </h6>
@@ -47,7 +48,7 @@ export const GetInTouchForm = () => {
                 We&apos;d love to hear from you. Please fill out this form.
             </p>
             <form className='mt-6'>
-                <div className='grid grid-cols-2 gap-x-4 gap-y-6'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-6'>
                     <InputComponent label="Name" placeholder="Enter your name" value={formData.name} onChange={(e) => handleChange(e)} className="w-full" name="name" />
                     <InputComponent label="Email id" placeholder="Email id" value={formData.email} onChange={(e) => handleChange(e)} className="w-full" name="email" />
                     <InputComponent label="Company" placeholder="Enter website link" value={formData.company} onChange={(e) => handleChange(e)} className="w-full" name="company" />

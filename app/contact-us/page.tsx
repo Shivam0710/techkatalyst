@@ -10,14 +10,14 @@ export default function ContactUsPage() {
   return (
     <div className="min-h-screen relative">
         <div className='bg-[#5A3AEC] h-[600px] w-full absolute top-0 left-0' />
-        <h3 className='text-white text-[60px] font-semibold py-20 relative z-10 text-center'>
-            Got ideas? We’ve got the skills. 
+        <h3 className='text-[28px] text-white lg:text-[60px] font-semibold py-10 lg:py-20 relative z-10 text-center'>
+            Got ideas? <span className='block lg:inline'> We’ve got the skills. </span>
             <span className='block'>
                 Let’s team up
             </span>
         </h3>
-        <div className='bg-[#B7FD7E] p-10 grid grid-cols-5 gap-10 relative z-10 mx-[100px] mb-[120px]'>
-            <div className='bg-white p-10 col-span-2 flex flex-col justify-between'>
+        <div className='bg-[#B7FD7E] p-[20px] lg:p-10 flex flex-col-reverse lg:grid grid-cols-5 gap-6 lg:gap-10 relative z-10 mx-6 lg:mx-[100px] mb-[120px]'>
+            <div className='bg-white p-6 lg:p-10 col-span-2 flex flex-col justify-between'>
                 <div>
                     <ContactBulletPoint className="mb-10" imageSrc="/images/message-us.png">
                         <p className='text-[#212121] font-medium'>Chat to us</p>
@@ -58,7 +58,7 @@ export default function ContactUsPage() {
                     </a>
                 </article>
             </div>
-            <div className='bg-white pl-10 col-span-3'>
+            <div className='bg-white lg:pl-10 col-span-3'>
                 <GetInTouchForm />
             </div>
         </div>
