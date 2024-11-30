@@ -27,22 +27,22 @@ export const Sidebar = () => {
                             </svg>
                         </button>
                         <div className={`flex flex-col gap-2 overflow-hidden transition-all duration-300 ${!dropdown ? 'max-h-0' : 'max-h-full mt-2'}`}>
-                            <Link style={{ color: "#7000FF", fontWeight: 'medium', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/mobile-app-development">
+                            <Link style={{ color: "#7000FF", fontWeight: 'bold', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/mobile-app-development">
                                 Mobile App Development
                             </Link>
-                            <Link style={{ color: "#7000FF", fontWeight: 'medium', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/web-development">
+                            <Link style={{ color: "#7000FF", fontWeight: 'bold', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/web-development">
                                 Web Development
                             </Link>
-                            <Link style={{ color: "#7000FF", fontWeight: 'medium', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/ui-ux-design">
+                            <Link style={{ color: "#7000FF", fontWeight: 'bold', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/ui-ux-design">
                                 UI/UX Design
                             </Link>
-                            <Link style={{ color: "#7000FF", fontWeight: 'medium', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/market-research">
+                            <Link style={{ color: "#7000FF", fontWeight: 'bold', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/market-research">
                                 Market Research
                             </Link>
-                            <Link style={{ color: "#7000FF", fontWeight: 'medium', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/product-management">
+                            <Link style={{ color: "#7000FF", fontWeight: 'bold', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/product-management">
                                 Product Management
                             </Link>
-                            <Link style={{ color: "#7000FF", fontWeight: 'medium', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/analytics-data-science">
+                            <Link style={{ color: "#7000FF", fontWeight: 'bold', textDecoration: 'none' }} className='text-[#7000FF] font-bold no-underline px-4 py-2 hover:bg-gray-100' href="/services/analytics-data-science">
                                 Analytics and Data science
                             </Link>
                         </div>
