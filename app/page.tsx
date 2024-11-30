@@ -1,5 +1,5 @@
 import About from '@/components/Homepage/About';
-import AboutClients from '@/components/Homepage/AboutClients';
+// import AboutClients from '@/components/Homepage/AboutClients';
 import AreasWeCover from '@/components/Homepage/AreasWeCover';
 import { ClientsWeServed } from '@/components/Homepage/ClientsWeServed';
 import IntroSection from '@/components/Homepage/IntroSection';

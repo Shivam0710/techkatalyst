@@ -1,4 +1,3 @@
-import { poppinsBold, poppinsMedium } from '@/helpers/fonts'
 import React from 'react'
 
 const WorkTogether = () => {
