@@ -27,7 +27,7 @@ export const InputComponent = ({
             placeholder={placeholder}
             value={value}
             onChange={onChange}
-            className='border border-[#D0D5DD] rounded-lg py-2 px-4 text-[#6A6A6A] text-sm min-h-[70px]'
+            className='border border-[#D0D5DD] rounded-lg py-[10px] px-4 text-[#6A6A6A] text-sm min-h-[70px] focus:outline-[#5A3AEC]'
             name={name}
             rows={2}
           />
@@ -37,7 +37,7 @@ export const InputComponent = ({
             placeholder={placeholder}
             value={value}
             onChange={onChange}
-            className='border border-[#D0D5DD] rounded-lg py-2 px-4 text-[#6A6A6A] text-sm'
+            className='border border-[#D0D5DD] rounded-lg py-[10px] px-4 text-[#6A6A6A] text-sm focus:outline-[#5A3AEC]'
             name={name}
           />
         )}

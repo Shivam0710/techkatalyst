@@ -12,7 +12,7 @@ export const ClientsWeServed = () => {
 
     return (
         <div className='standard-margin-top px-6 lg:px-[100px]'>
-            <h6 className='text-xl text-center lg:text-5xl font-bold lg:font-semibold text-[#212121] mb-6 lg:mb-[56px]'>
+            <h6 className='text-xl text-center lg:text-[40px] xl:text-5xl font-bold text-[#212121] mb-6 lg:mb-[56px]'>
                 Clients We’ve Worked With
             </h6>
             <div className='flex flex-wrap justify-center gap-3 lg:gap-6'>

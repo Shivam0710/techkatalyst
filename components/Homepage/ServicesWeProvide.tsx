@@ -8,10 +8,10 @@ export const ServicesWeProvide = () => {
   return (
     <div className='px-6 lg:px-[100px] py-[56px] lg:py-[120px] flex flex-col-reverse lg:flex-row gap-6 lg:gap-20'>
         <article>
-            <h4 className={`font-bold text-[20px] text-center lg:text-left lg:text-5xl w-full lg:w-[80%] lg:leading-[56px]`}>
+            <h4 className={`font-bold text-[20px] text-center lg:text-left lg:text-[40px] xl:text-5xl w-full xl:w-[80%] lg:leading-[48px] xl:leading-[56px]`}>
                 We provide IT solution & services for any startups
             </h4>
-            <ul className={`${poppinsBold.className} list-decimal text-sm lg:text-xl ml-[20px] mt-6 lg:w-[75%] flex flex-col gap-3 lg:gap-4`}>
+            <ul className={`${poppinsBold.className} list-decimal text-sm lg:text-base ml-[20px] mt-6 xl:w-[75%] flex flex-col gap-3 lg:gap-4`}>
                 <li className={` font-normal`}>
                     <span className={`${poppinsBold.className}`}>
                         Expertise Across Domains:
@@ -45,7 +45,7 @@ export const ServicesWeProvide = () => {
                     </span>
                 </li>
             </ul>
-            <a href="/contact-us" className={`bg-[#7000FF] text-white text-sm text-center lg:text-2xl  font-bold py-[14px] lg:py-5 px-10 block lg:inline-block mt-8 lg:mt-12`}>
+            <a href="/contact-us" className={`bg-[#7000FF] hover:bg-[#9EE463] hover:text-[#7000FF] transition-all duration-300 text-white text-sm text-center lg:text-lg xl:text-xl font-medium py-[14px] lg:py-5 px-10 block lg:inline-block mt-8 lg:mt-12`}>
                 Lets discuss oppotunities
             </a>
         </article>

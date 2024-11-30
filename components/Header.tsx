@@ -6,15 +6,15 @@ import Sidebar from './Common/Sidebar'
 
 export const Header = () => {
   return (
-    <div className='flex justify-between py-6 lg:py-10 px-6 lg:px-[100px] items-center'>
+    <div className='flex justify-between py-6 lg:py-10 px-6 lg:px-[80px] xl:px-[100px] items-center'>
         <Link href="/">
           <Image src={Logo} alt="Logo" className="w-[130px] lg:w-[216px] h-[40px] lg:h-[66px]" /> 
         </Link>
-        <article className={`hidden lg:flex items-center space-x-20 font-medium`}>
-            <Link className='uppercase font-medium' href="/"> Home </Link>
-            <Link className='uppercase font-medium' href="/about-us"> About us </Link>
+        <article className={`hidden lg:flex items-center lg:space-x-10 xl:space-x-20 font-medium`}>
+            <Link className='uppercase font-medium hover:text-[#7000FF]' href="/"> Home </Link>
+            <Link className='uppercase font-medium hover:text-[#7000FF]' href="/about-us"> About us </Link>
             <div className="relative group">
-                <button className='uppercase font-medium flex items-center'>
+                <button className='uppercase font-medium flex items-center hover:text-[#7000FF]'>
                     Services
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
