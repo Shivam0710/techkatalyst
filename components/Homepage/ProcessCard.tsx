@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-export const ProcessCard = ({ index, title, subtitle, allowArrow=true } : { index: number, title: string, subtitle: string, allowArrow?: boolean }) => {
+export const ProcessCard = ({ title, subtitle, allowArrow=true } : { title: string, subtitle: string, allowArrow?: boolean }) => {
   return (
     <div className='flex flex-col bg-[#B7FD7E] p-6 relative border-[#5A3AEC] border-4'>
         { allowArrow && (
