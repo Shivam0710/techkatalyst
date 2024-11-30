@@ -1,4 +1,4 @@
-import { poppins, poppinsBold } from '@/helpers/fonts'
+import { poppinsBold } from '@/helpers/fonts'
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 
