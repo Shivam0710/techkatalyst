@@ -12,7 +12,7 @@ export const Sidebar = () => {
         <div className='block lg:hidden'>
             <button onClick={() => setOpen(true)}> <AlignJustify color='#5A3AEC' /> </button>
             <Drawer anchor='right' open={open} onClose={() => setOpen(false)}>
-                <div className='w-[240px] py-20 bg-[#9EE463] flex flex-col gap-6 justify-start text-center text-[#7000FF] relative h-screen'>
+                <div className='w-[240px] py-20 bg-white flex flex-col gap-6 justify-start text-center text-[#7000FF] relative h-screen'>
                     <CircleX color="#5A3AEC" className='absolute top-4 right-4 cursor-pointer' onClick={() => setOpen(false)} />
                     <Link style={{ color: "#7000FF", textDecoration: 'none', fontWeight: 'medium' }} className='uppercase font-medium text-[#7000FF] no-underline' href="/"> Home </Link>
                     <Link style={{ color: "#7000FF", textDecoration: 'none', fontWeight: 'medium' }} className='uppercase font-medium text-[#7000FF] no-underline' href="/about-us"> About us </Link>
