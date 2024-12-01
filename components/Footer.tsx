@@ -3,6 +3,7 @@ import React from 'react'
 import LogoWhite from '@/public/logo-white.png'
 import LinkedinLogo from '@/public/linkedin.png'
 import TwitterLogo from '@/public/twitter.png'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -44,17 +45,17 @@ const Footer = () => {
         <hr className='border-solid border-t-[#ffffff3d] my-[32px] lg:my-10' />
         <p className='font-semibold text-white'> Our services </p>
         <div className='flex flex-wrap gap-4 mt-5'>
-            <a className='text-sm text-white' href="/services/market-research"> Market Research </a>
-            <a className='text-sm text-white' href="/services/product-management"> Product Management </a>
-            <a className='text-sm text-white' href="/services/web-development"> Web development </a>
-            <a className='text-sm text-white' href="/services/mobile-app-development">Mobile App development</a>
-            <a className='text-sm text-white' href="/services/analytics-data-science">Analytics & Data Science</a>
-            <a className='text-sm text-white' href="/services/ui-ux-design">Product UI/UX design</a>
+            <Link className='text-sm text-white' href="/services/market-research"> Market Research </Link>
+            <Link className='text-sm text-white' href="/services/product-management"> Product Management </Link>
+            <Link className='text-sm text-white' href="/services/web-development"> Web development </Link>
+            <Link className='text-sm text-white' href="/services/mobile-app-development">Mobile App development</Link>
+            <Link className='text-sm text-white' href="/services/analytics-data-science">Analytics & Data Science</Link>
+            <Link className='text-sm text-white' href="/services/ui-ux-design">Product UI/UX design</Link>
         </div>
         <hr className='border-solid border-t-[#ffffff3d] my-[32px] lg:my-10' />
         <div className='flex gap-20 text-white'>
-            <a className='text-sm text-white' href="/about-us">About us</a>
-            <a className='text-sm text-white' href="/contact-us">Contact us</a>
+            <Link className='text-sm text-white' href="/about-us">About us</Link>
+            <Link className='text-sm text-white' href="/contact-us">Contact us</Link>
         </div>
         <p className='text-sm text-[rgba(255,255,255,0.6)] mt-6 lg:text-center'>
             © Copyright 2024, All Rights Reserved by Tech Katalyst
