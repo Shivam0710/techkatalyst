@@ -1,7 +1,7 @@
 "use client"
 
-import { Drawer, Link } from '@mui/material'
-import { AlignJustify, CircleX, X } from 'lucide-react'
+import { Link } from '@mui/material'
+import { AlignJustify, X } from 'lucide-react'
 import React, { useState } from 'react'
 
 export const Sidebar = () => {

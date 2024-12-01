@@ -20,25 +20,32 @@ export const Header = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
-                <div className="absolute opacity-0 group-hover:opacity-100 flex hover:opacity-100 w-64 bg-white shadow-2xl mt-2 py-2 rounded-sm z-10 flex-col transition-opacity duration-300">
-                    <Link className='block px-4 py-2 hover:bg-gray-100' href="/services/mobile-app-development">
-                      Mobile App Development
-                    </Link>
-                    <Link className='block px-4 py-2 hover:bg-gray-100' href="/services/web-development">
-                      Web Development
-                    </Link>
-                    <Link className='block px-4 py-2 hover:bg-gray-100' href="/services/ui-ux-design">
-                      UI/UX Design
-                    </Link>
-                    <Link className='block px-4 py-2 hover:bg-gray-100' href="/services/market-research">
-                      Market Research
-                    </Link>
-                    <Link className='block px-4 py-2 hover:bg-gray-100' href="/services/product-management">
-                      Product Management
-                    </Link>
-                    <Link className='block px-4 py-2 hover:bg-gray-100' href="/services/analytics-data-science">
-                      Analytics and Data science
-                    </Link>
+                <div className="absolute -left-full top-[170%] opacity-0 group-hover:opacity-100 flex hover:opacity-100 w-64 bg-[#B7FD7E] border-4 border-[#7000FF] shadow-2xl mt-2 py-2 rounded-sm z-10 flex-col transition-opacity duration-300">
+                  <Image 
+                      src="/right-arrow.png"
+                      alt='right-arrow'
+                      className='absolute color-transparent translate-x-[-50%] right-[40%] top-[-31px] rotate-[270deg]'
+                      width={24}
+                      height={28}
+                  />
+                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/mobile-app-development">
+                    Mobile App Development
+                  </Link>
+                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/web-development">
+                    Web Development
+                  </Link>
+                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/ui-ux-design">
+                    UI/UX Design
+                  </Link>
+                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/market-research">
+                    Market Research
+                  </Link>
+                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/product-management">
+                    Product Management
+                  </Link>
+                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/analytics-data-science">
+                    Analytics and Data science
+                  </Link>
                 </div>
             </div>
             <Link className='bg-[#7000FF] py-3 px-8 text-white rounded-sm font-medium' href="/contact-us"> Contact us </Link>
