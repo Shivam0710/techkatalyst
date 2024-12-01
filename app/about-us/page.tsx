@@ -19,12 +19,12 @@ export default function AboutUsPage() {
                 What We Do
             </h6>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10 border border-[#E7E7E7] lg:border-0'>
-                <ServiceCard icon="/images/growth.png" title={"Web & App Development"} description={"Creating scalable, high-performing websites tailored to your business needs."} />
-                <ServiceCard icon="/images/growth.png" title={"Product UI/UX Design"} description={"Designing intuitive and user-centric poppinsfaces for digital products."} />
-                <ServiceCard icon="/images/growth.png" title={"Product Management"} description={"Strategizing, planning, and delivering products that align with your business goals."} />
-                <ServiceCard icon="/images/growth.png" title={"Data Analytics & Insights"} description={"Turning raw data into actionable insights for smarter decision-making."} />
-                <ServiceCard icon="/images/growth.png" title={"Market Research"} description={"Providing in-depth research to understand trends, audiences, and opportunities."} />
-                <ServiceCard icon="/images/growth.png" title={"Digital Transformation"} description={"Helping businesses adapt, innovate, and thrive in the digital era."} />
+                <ServiceCard icon="/aboutpage/web-development.png" title={"Web & App Development"} description={"Creating scalable, high-performing websites tailored to your business needs."} />
+                <ServiceCard icon="/aboutpage/ui-ux.png" title={"Product UI/UX Design"} description={"Designing intuitive and user-centric poppinsfaces for digital products."} />
+                <ServiceCard icon="/aboutpage/product-management.png" title={"Product Management"} description={"Strategizing, planning, and delivering products that align with your business goals."} />
+                <ServiceCard icon="/aboutpage/data-analytics.png" title={"Data Analytics & Insights"} description={"Turning raw data into actionable insights for smarter decision-making."} />
+                <ServiceCard icon="/aboutpage/market-research.png" title={"Market Research"} description={"Providing in-depth research to understand trends, audiences, and opportunities."} />
+                <ServiceCard icon="/aboutpage/digital-transformation.png" title={"Digital Transformation"} description={"Helping businesses adapt, innovate, and thrive in the digital era."} />
             </div>
         </div>
         <div className='standard-margin-top px-6 lg:px-[100px]'>

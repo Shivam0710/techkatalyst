@@ -17,7 +17,6 @@ export const About = () => {
                 </a>
             </article>
         </article>
-        
     </div>
   )
 }

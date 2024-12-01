@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Intro from '@/public/intro.png'
 import Decorator from '@/public/decorator.png'
+import Calendar from '@/components/Common/Calendar'
 
 export const IntroSection = () => {
   return (
@@ -15,9 +16,7 @@ export const IntroSection = () => {
                     We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization
                 </p>
                 <div className='flex-col lg:flex-row flex gap-4 mt-6'>
-                    <a href="/contact-us" className={`lg:mt-12 bg-[#7000FF] hover:bg-[#9EE463] py-[14px] lg:py-5 px-10 text-white hover:text-[#7000FF] transition-all duration-300 rounded-sm text-[18px] text-center lg:text-lg xl:text-xl font-medium w-full lg:w-auto inline-block`}>
-                        Book a free call
-                    </a>
+                    <Calendar />
                     <a href="/contact-us" className={`lg:mt-12 bg-white hover:bg-[#9EE463] hover:text-[#7000FF] transition-all duration-300 py-[14px] lg:py-5 px-[60px] text-[#7000FF] border border-[#7000FF] rounded-sm text-[18px] text-center lg:text-lg xl:text-xl font-medium w-full lg:w-auto inline-block`}>
                         Get started
                     </a>
