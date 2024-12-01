@@ -44,12 +44,12 @@ const Footer = () => {
         <hr className='border-solid border-t-[#ffffff3d] my-[32px] lg:my-10' />
         <p className='font-semibold text-white'> Our services </p>
         <div className='flex flex-wrap gap-4 mt-5'>
-            <a className='text-sm text-white' href=""> Market Research </a>
-            <a className='text-sm text-white' href=""> Product Management </a>
-            <a className='text-sm text-white' href=""> Web development </a>
-            <a className='text-sm text-white' href="">Mobile App development</a>
-            <a className='text-sm text-white' href="">Analytics & Data Science</a>
-            <a className='text-sm text-white' href="">Product UI/UX design</a>
+            <a className='text-sm text-white' href="/services/market-research"> Market Research </a>
+            <a className='text-sm text-white' href="/services/product-management"> Product Management </a>
+            <a className='text-sm text-white' href="/services/web-development"> Web development </a>
+            <a className='text-sm text-white' href="/services/mobile-app-development">Mobile App development</a>
+            <a className='text-sm text-white' href="/services/analytics-data-science">Analytics & Data Science</a>
+            <a className='text-sm text-white' href="/services/ui-ux-design">Product UI/UX design</a>
         </div>
         <hr className='border-solid border-t-[#ffffff3d] my-[32px] lg:my-10' />
         <div className='flex gap-20 text-white'>
